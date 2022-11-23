@@ -28,7 +28,8 @@ namespace NasljedivanjeVjezba5
     {
         public override double ApsVrijednost(double broj)
         {
-            return (Math.Abs(broj));
+            this.Broj = (Math.Abs(broj));
+            return this.Broj;
         }
     }
 
@@ -36,7 +37,8 @@ namespace NasljedivanjeVjezba5
     {
         public override double ApsVrijednost(double broj)
         {
-            return (Math.Abs(broj));
+            this.Broj = (Math.Abs(broj));
+            return this.Broj;
         }
     }
 
